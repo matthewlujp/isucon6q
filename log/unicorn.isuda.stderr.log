@@ -1,0 +1,48 @@
+I, [2016-09-23T01:09:08.952854 #4033]  INFO -- : Refreshing Gem list
+F, [2016-09-23T01:09:08.998674 #4033] FATAL -- : error adding listener addr=/var/run/unicorn-isuda.sock
+Errno::EACCES: Permission denied - connect(2) for /var/run/unicorn-isuda.sock
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `initialize'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `new'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:231:in `listen'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `each'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:130:in `start'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/bin/unicorn:23:in `load'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/bin/unicorn:23:in `<top (required)>'
+I, [2016-09-23T01:14:57.673617 #4078]  INFO -- : Refreshing Gem list
+F, [2016-09-23T01:14:57.715064 #4078] FATAL -- : error adding listener addr=/var/run/unicorn-isuda.sock
+Errno::EACCES: Permission denied - connect(2) for /var/run/unicorn-isuda.sock
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `initialize'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `new'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:231:in `listen'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `each'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:130:in `start'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/bin/unicorn:23:in `load'
+  /home/isucon/isucon6q/ruby/vendor/bundle/ruby/2.3.0/bin/unicorn:23:in `<top (required)>'
+I, [2016-09-23T01:34:56.062900 #4584]  INFO -- : Refreshing Gem list
+I, [2016-09-23T01:34:56.106027 #4584]  INFO -- : unlinking existing socket=/tmp/unicorn_isuda.sock
+I, [2016-09-23T01:34:56.106155 #4584]  INFO -- : listening on addr=/tmp/unicorn_isuda.sock fd=7
+I, [2016-09-23T01:34:56.106356 #4584]  INFO -- : listening on addr=0.0.0.0:5000 fd=8
+I, [2016-09-23T01:34:56.106426 #4584]  INFO -- : worker=0 spawning...
+I, [2016-09-23T01:34:56.107211 #4584]  INFO -- : worker=1 spawning...
+I, [2016-09-23T01:34:56.107689 #4587]  INFO -- : worker=0 spawned pid=4587
+I, [2016-09-23T01:34:56.107817 #4587]  INFO -- : worker=0 ready
+I, [2016-09-23T01:34:56.108407 #4584]  INFO -- : worker=2 spawning...
+I, [2016-09-23T01:34:56.108812 #4590]  INFO -- : worker=1 spawned pid=4590
+I, [2016-09-23T01:34:56.108881 #4584]  INFO -- : worker=3 spawning...
+I, [2016-09-23T01:34:56.108912 #4590]  INFO -- : worker=1 ready
+I, [2016-09-23T01:34:56.109497 #4593]  INFO -- : worker=2 spawned pid=4593
+I, [2016-09-23T01:34:56.109594 #4593]  INFO -- : worker=2 ready
+I, [2016-09-23T01:34:56.110196 #4584]  INFO -- : worker=4 spawning...
+I, [2016-09-23T01:34:56.110568 #4596]  INFO -- : worker=3 spawned pid=4596
+I, [2016-09-23T01:34:56.110663 #4596]  INFO -- : worker=3 ready
+I, [2016-09-23T01:34:56.110734 #4584]  INFO -- : master process ready
+I, [2016-09-23T01:34:56.111275 #4599]  INFO -- : worker=4 spawned pid=4599
+I, [2016-09-23T01:34:56.111375 #4599]  INFO -- : worker=4 ready
