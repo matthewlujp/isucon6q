@@ -1,0 +1,98 @@
+Top 20 Sort By Count
+Count   Total      Mean    Stddev    Min  P50.0  P90.0  P95.0  P99.0    Max  2xx  3xx  4xx  5xx  Request
+   12  14.943  1.245250  1.316364  0.000  2.123  2.256  3.923  3.923  3.923    8    2    2    0  GET /img/star.gif HTTP/1.1
+   11  22.323  2.029364  1.207886  0.000  2.249  2.606  4.543  4.543  4.543    9    1    1    0  GET / HTTP/1.1
+    7   5.395  0.770714  1.770274  0.000  0.001  5.104  5.104  5.104  5.104    3    2    2    0  GET /js/jquery.min.js HTTP/1.1
+    7   3.801  0.543000  1.304917  0.000  0.001  3.739  3.739  3.739  3.739    3    2    2    0  GET /js/bootstrap.min.js HTTP/1.1
+    7   3.257  0.465286  1.115395  0.000  0.001  3.197  3.197  3.197  3.197    3    2    2    0  GET /js/star.js HTTP/1.1
+    6   4.780  0.796667  1.780507  0.000  0.000  4.778  4.778  4.778  4.778    2    1    3    0  GET /css/bootstrap-responsive.min.css HTTP/1.1
+    6   4.951  0.825167  1.767304  0.000  0.081  4.776  4.776  4.776  4.776    3    0    3    0  GET /css/bootstrap.min.css HTTP/1.1
+    6   4.756  0.792667  1.771115  0.000  0.000  4.753  4.753  4.753  4.753    2    1    3    0  GET /css/main.css HTTP/1.1
+    2   0.002  0.001000  0.000000  0.001  0.001  0.001  0.001  0.001  0.001    2    0    0    0  GET /favicon.ico HTTP/1.1
+
+Top 20 Sort By Total
+Count   Total      Mean    Stddev    Min  P50.0  P90.0  P95.0  P99.0    Max  2xx  3xx  4xx  5xx  Request
+   11  22.323  2.029364  1.207886  0.000  2.249  2.606  4.543  4.543  4.543    9    1    1    0  GET / HTTP/1.1
+   12  14.943  1.245250  1.316364  0.000  2.123  2.256  3.923  3.923  3.923    8    2    2    0  GET /img/star.gif HTTP/1.1
+    7   5.395  0.770714  1.770274  0.000  0.001  5.104  5.104  5.104  5.104    3    2    2    0  GET /js/jquery.min.js HTTP/1.1
+    6   4.951  0.825167  1.767304  0.000  0.081  4.776  4.776  4.776  4.776    3    0    3    0  GET /css/bootstrap.min.css HTTP/1.1
+    6   4.780  0.796667  1.780507  0.000  0.000  4.778  4.778  4.778  4.778    2    1    3    0  GET /css/bootstrap-responsive.min.css HTTP/1.1
+    6   4.756  0.792667  1.771115  0.000  0.000  4.753  4.753  4.753  4.753    2    1    3    0  GET /css/main.css HTTP/1.1
+    7   3.801  0.543000  1.304917  0.000  0.001  3.739  3.739  3.739  3.739    3    2    2    0  GET /js/bootstrap.min.js HTTP/1.1
+    7   3.257  0.465286  1.115395  0.000  0.001  3.197  3.197  3.197  3.197    3    2    2    0  GET /js/star.js HTTP/1.1
+    2   0.002  0.001000  0.000000  0.001  0.001  0.001  0.001  0.001  0.001    2    0    0    0  GET /favicon.ico HTTP/1.1
+
+Top 20 Sort By Mean
+Count   Total      Mean    Stddev    Min  P50.0  P90.0  P95.0  P99.0    Max  2xx  3xx  4xx  5xx  Request
+   11  22.323  2.029364  1.207886  0.000  2.249  2.606  4.543  4.543  4.543    9    1    1    0  GET / HTTP/1.1
+   12  14.943  1.245250  1.316364  0.000  2.123  2.256  3.923  3.923  3.923    8    2    2    0  GET /img/star.gif HTTP/1.1
+    6   4.951  0.825167  1.767304  0.000  0.081  4.776  4.776  4.776  4.776    3    0    3    0  GET /css/bootstrap.min.css HTTP/1.1
+    6   4.780  0.796667  1.780507  0.000  0.000  4.778  4.778  4.778  4.778    2    1    3    0  GET /css/bootstrap-responsive.min.css HTTP/1.1
+    6   4.756  0.792667  1.771115  0.000  0.000  4.753  4.753  4.753  4.753    2    1    3    0  GET /css/main.css HTTP/1.1
+    7   5.395  0.770714  1.770274  0.000  0.001  5.104  5.104  5.104  5.104    3    2    2    0  GET /js/jquery.min.js HTTP/1.1
+    7   3.801  0.543000  1.304917  0.000  0.001  3.739  3.739  3.739  3.739    3    2    2    0  GET /js/bootstrap.min.js HTTP/1.1
+    7   3.257  0.465286  1.115395  0.000  0.001  3.197  3.197  3.197  3.197    3    2    2    0  GET /js/star.js HTTP/1.1
+    2   0.002  0.001000  0.000000  0.001  0.001  0.001  0.001  0.001  0.001    2    0    0    0  GET /favicon.ico HTTP/1.1
+
+Top 20 Sort By Standard Deviation
+Count   Total      Mean    Stddev    Min  P50.0  P90.0  P95.0  P99.0    Max  2xx  3xx  4xx  5xx  Request
+    6   4.780  0.796667  1.780507  0.000  0.000  4.778  4.778  4.778  4.778    2    1    3    0  GET /css/bootstrap-responsive.min.css HTTP/1.1
+    6   4.756  0.792667  1.771115  0.000  0.000  4.753  4.753  4.753  4.753    2    1    3    0  GET /css/main.css HTTP/1.1
+    7   5.395  0.770714  1.770274  0.000  0.001  5.104  5.104  5.104  5.104    3    2    2    0  GET /js/jquery.min.js HTTP/1.1
+    6   4.951  0.825167  1.767304  0.000  0.081  4.776  4.776  4.776  4.776    3    0    3    0  GET /css/bootstrap.min.css HTTP/1.1
+   12  14.943  1.245250  1.316364  0.000  2.123  2.256  3.923  3.923  3.923    8    2    2    0  GET /img/star.gif HTTP/1.1
+    7   3.801  0.543000  1.304917  0.000  0.001  3.739  3.739  3.739  3.739    3    2    2    0  GET /js/bootstrap.min.js HTTP/1.1
+   11  22.323  2.029364  1.207886  0.000  2.249  2.606  4.543  4.543  4.543    9    1    1    0  GET / HTTP/1.1
+    7   3.257  0.465286  1.115395  0.000  0.001  3.197  3.197  3.197  3.197    3    2    2    0  GET /js/star.js HTTP/1.1
+    2   0.002  0.001000  0.000000  0.001  0.001  0.001  0.001  0.001  0.001    2    0    0    0  GET /favicon.ico HTTP/1.1
+
+Top 20 Sort By Maximum(100 Percentile)
+Count   Total      Mean    Stddev    Min  P50.0  P90.0  P95.0  P99.0    Max  2xx  3xx  4xx  5xx  Request
+    7   5.395  0.770714  1.770274  0.000  0.001  5.104  5.104  5.104  5.104    3    2    2    0  GET /js/jquery.min.js HTTP/1.1
+    6   4.780  0.796667  1.780507  0.000  0.000  4.778  4.778  4.778  4.778    2    1    3    0  GET /css/bootstrap-responsive.min.css HTTP/1.1
+    6   4.951  0.825167  1.767304  0.000  0.081  4.776  4.776  4.776  4.776    3    0    3    0  GET /css/bootstrap.min.css HTTP/1.1
+    6   4.756  0.792667  1.771115  0.000  0.000  4.753  4.753  4.753  4.753    2    1    3    0  GET /css/main.css HTTP/1.1
+   11  22.323  2.029364  1.207886  0.000  2.249  2.606  4.543  4.543  4.543    9    1    1    0  GET / HTTP/1.1
+   12  14.943  1.245250  1.316364  0.000  2.123  2.256  3.923  3.923  3.923    8    2    2    0  GET /img/star.gif HTTP/1.1
+    7   3.801  0.543000  1.304917  0.000  0.001  3.739  3.739  3.739  3.739    3    2    2    0  GET /js/bootstrap.min.js HTTP/1.1
+    7   3.257  0.465286  1.115395  0.000  0.001  3.197  3.197  3.197  3.197    3    2    2    0  GET /js/star.js HTTP/1.1
+    2   0.002  0.001000  0.000000  0.001  0.001  0.001  0.001  0.001  0.001    2    0    0    0  GET /favicon.ico HTTP/1.1
+
+TOP 37 Slow Requests
+ 1  5.104  GET /js/jquery.min.js HTTP/1.1
+ 2  4.778  GET /css/bootstrap-responsive.min.css HTTP/1.1
+ 3  4.776  GET /css/bootstrap.min.css HTTP/1.1
+ 4  4.753  GET /css/main.css HTTP/1.1
+ 5  4.543  GET / HTTP/1.1
+ 6  3.923  GET /img/star.gif HTTP/1.1
+ 7  3.739  GET /js/bootstrap.min.js HTTP/1.1
+ 8  3.197  GET /js/star.js HTTP/1.1
+ 9  2.606  GET / HTTP/1.1
+10  2.547  GET / HTTP/1.1
+11  2.372  GET / HTTP/1.1
+12  2.326  GET / HTTP/1.1
+13  2.256  GET /img/star.gif HTTP/1.1
+14  2.249  GET / HTTP/1.1
+15  2.248  GET /img/star.gif HTTP/1.1
+16  2.232  GET / HTTP/1.1
+17  2.178  GET / HTTP/1.1
+18  2.173  GET /img/star.gif HTTP/1.1
+19  2.153  GET /img/star.gif HTTP/1.1
+20  2.123  GET /img/star.gif HTTP/1.1
+21  1.270  GET / HTTP/1.1
+22  0.180  GET /js/jquery.min.js HTTP/1.1
+23  0.109  GET /js/jquery.min.js HTTP/1.1
+24  0.094  GET /css/bootstrap.min.css HTTP/1.1
+25  0.081  GET /css/bootstrap.min.css HTTP/1.1
+26  0.064  GET /img/star.gif HTTP/1.1
+27  0.059  GET /js/bootstrap.min.js HTTP/1.1
+28  0.058  GET /js/star.js HTTP/1.1
+29  0.003  GET /css/main.css HTTP/1.1
+30  0.002  GET /css/bootstrap-responsive.min.css HTTP/1.1
+31  0.001  GET /js/bootstrap.min.js HTTP/1.1
+32  0.001  GET /favicon.ico HTTP/1.1
+33  0.001  GET /js/bootstrap.min.js HTTP/1.1
+34  0.001  GET /js/jquery.min.js HTTP/1.1
+35  0.001  GET /img/star.gif HTTP/1.1
+36  0.001  GET /img/star.gif HTTP/1.1
+37  0.001  GET /js/jquery.min.js HTTP/1.1
