@@ -9,9 +9,12 @@ require 'mysql2-cs-bind'
 require 'rack/utils'
 require 'sinatra/base'
 require 'tilt/erubis'
+require 'dotenv'
 
 module Isuda
   class Web < ::Sinatra::Base
+    Dotenv.load
+    
     enable :protection
     enable :sessions
 

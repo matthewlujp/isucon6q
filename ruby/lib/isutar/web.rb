@@ -6,9 +6,12 @@ require 'mysql2'
 require 'mysql2-cs-bind'
 require 'rack/utils'
 require 'sinatra/base'
+require 'dotenv'
 
 module Isutar
   class Web < ::Sinatra::Base
+    Dotenv.load
+
     enable :protection
 
     set :db_user, ENV['ISUTAR_DB_USER'] || 'root'
