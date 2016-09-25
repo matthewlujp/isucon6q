@@ -10,11 +10,17 @@ require 'rack/utils'
 require 'sinatra/base'
 require 'tilt/erubis'
 require 'dotenv'
+require 'redis'
+
+require_relative 'redis_concern'
+
 
 module Isuda
   class Web < ::Sinatra::Base
+    include RedisConern
+
     Dotenv.load
-    
+
     enable :protection
     enable :sessions
 

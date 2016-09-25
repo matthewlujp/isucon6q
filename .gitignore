@@ -1,0 +1,4 @@
+scripts/env.sh
+ruby/vendor
+ruby/.env
+.bundle/
